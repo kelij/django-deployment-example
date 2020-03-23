@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+{%load staticfiles%}
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>STATIC FILES</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+  </head>
+  <body>
+     <h1>Hello this is from templates/index.html</h1>
+     {{insert_me}}
+     <img src="{%static 'images/ass.jpeg' %}" alt="bla bla">
+  </body>
+</html>
